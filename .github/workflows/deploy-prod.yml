@@ -16,6 +16,11 @@ env:
   ### REPLACE USERNAME WITH GH USERNAME         ###
   AZURE_WEBAPP_NAME: kietnhitran-ttt-app
   #################################################
+  DOCKER_IMAGE_NAME: kietnhiTran-azure-ttt # Must not exist as a package associated with a different repo!
+  IMAGE_REGISTRY_URL: docker.pkg.github.com
+  #################################################
+  ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
+  #################################################
 
 jobs:
   build:
